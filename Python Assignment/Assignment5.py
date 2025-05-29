@@ -1,4 +1,4 @@
-##############Assisgnemt############
+
 
 #create a new file with name of sample.txt
 #write some content append some content and read separate execution
