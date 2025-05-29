@@ -1,16 +1,4 @@
-# Build a student grade management system using the following Python concepts:
-# - List of dictionaries
-# - Function with required arguments, *args, **kwargs
-# - Function decorator
-# - Loops and control statements
 
-# Requirements
-# 1. Use a *decorator* to log function activity.
-# 2. Use a function to *add student data* using *args and **kwargs.
-# 3. Store student records in a *list of dictionaries*.
-# 4. Use *loops and conditionals* to calculate and display results.
-
-# Decorator to show when a function starts and ends
 def log(func):
     def wrapper(*args, **kwargs):
         print(f"Start: {func._name_}")
